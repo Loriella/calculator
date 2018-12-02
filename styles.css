@@ -1,16 +1,18 @@
 
 .calculator-body {
-    background-color: #F0F0F0;
     width: 300px;
-    height: 600px;
-    font-weight: bold;
-    font-size: 28px;
 }
 
 .visual_display {
-    height: 200px;
-    border: 1px solid gray;
+    background-color: #F0F0F0;
+    height: 100px;
+    border: 1px solid #F0F0F0;
     border-bottom: none;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6em;
+    text-align: right;
+    padding: 0 10px;
 }
 
 .keyboard {
@@ -29,15 +31,44 @@
     flex-grow: 1;
     flex-basis: 25%;
     border: none;
-    border-left: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-left: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    background-color: #ffffff;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:focus {
+    outline: none;
+    background-color: #eaeaea;
+}
+
+.btn:active {
+    background-color: #BDBDBD;
 }
 
 .btn:last-child {
-    border-right: 1px solid gray;
+    border-right: 1px solid #F0F0F0;
 }
 .line:first-child .btn{
-    border-top: 1px solid gray;
+    border-top: 1px solid #F0F0F0;
+}
+
+.btn-compute {
+    background-color: #FB7730;
+    color: #ffffff;
+}
+
+.btn-compute:focus {
+    background-color: #FF914A;
+}
+
+.btn-compute:active {
+    background-color: #D8540D;
+}
+
+.btn-clear {
+    color: #FB7730;
 }
 
 
