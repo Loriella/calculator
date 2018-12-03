@@ -67,7 +67,8 @@
     background-color: #D8540D;
 }
 
-.btn-clear {
+.btn-clear,
+.btn-backspace {
     color: #FB7730;
 }
 
